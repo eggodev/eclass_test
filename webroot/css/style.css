@@ -1,0 +1,61 @@
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.btn-field{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.btn-info{
+    width: 10rem;
+}
+.view-card-container{
+ margin-top: 15px;
+}
+
+.view-card{
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #F2F2F2;
+    width: 60%;
+    margin: auto;
+}
+
+.error{
+    background-color: #F2DEDE;
+    padding: 16px;
+    border-bottom: 1px solid #EBCCD1;
+    color: #A94442;
+}
+
+.icon-green{
+    color:#337AB7;
+}
+.icon-red{
+    color:#D9534F;
+}
+
+.searchRow{
+    margin-bottom: 15px;
+}
+.radio{
+    margin-left: 10px;
+    padding: 3px;
+    font-weight:800;
+}
+.searchOptDiv {
+ display:none;
+}
+.showSearchOptBtnIcon{
+    color:#31B0D5;
+}
+.showSearchOptBtnTitle{
+    margin-left: 3px;
+    color: #31B0D5;
+}
+.panel-info{
+    margin-bottom: 0;
+}
+.roleOpts{
+    margin-bottom: 5px;
+}
