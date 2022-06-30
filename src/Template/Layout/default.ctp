@@ -38,7 +38,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 </head>
 
 <body>
-    <?= $this->element('menu') ?>
+    <?= $current_user['id'] != '' ? $this->element('menu') : null; ?>
+
     <?= $this->Flash->render() ?>
     <div class="container">
         <?= $this->fetch('content') ?>
